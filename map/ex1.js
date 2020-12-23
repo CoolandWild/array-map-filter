@@ -27,6 +27,8 @@ Expected OUTPUT for this sample array:
 */
 
 function getStringsLength(strings) {
+ 
+  return strings.map(strings=> strings.length)
 }
 
 // If you need, you can always visualize the result with a console.log.
